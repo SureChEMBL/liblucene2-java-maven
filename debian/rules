@@ -1,19 +1,8 @@
 #!/usr/bin/make -f
 
-PACKAGE = liblucene2-java-maven
-DEBIAN_PACKAGE_DIR = debian/$(PACKAGE)
-
-override_dh_auto_configure:
-	dh_auto_configure
-
-	./pkg_configure
-	cp tmp/links debian/links
-
 override_dh_auto_install:
+	dh_usj_maven
+
 	dh_auto_install
-
-	mkdir -p $(DEBIAN_PACKAGE_DIR)
-	cp -r tmp/usr $(DEBIAN_PACKAGE_DIR)
-
 %:
 	dh $@

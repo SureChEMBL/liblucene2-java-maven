@@ -1,0 +1,106 @@
+package: liblucene2-java-maven
+
+artifacts:
+  - group_id: org.apache.lucene
+    artifact_id: lucene-core
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-analyzers
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-smartcn
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-ant
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-memory
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-regex
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-highlighter
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-fast-vector-highlighter
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-benchmark
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-misc
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-collation
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-bdb
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-bdb-je
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-instantiated
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-lucli
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-queries
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-queryparser
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-remote
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-snowball
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-spatial
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-spellchecker
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-surround
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-swing
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-wikipedia
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-wordnet
+    version: 2.9.x
+
+  - group_id: org.apache.lucene
+    artifact_id: lucene-xml-query-parser
+    version: 2.9.x
